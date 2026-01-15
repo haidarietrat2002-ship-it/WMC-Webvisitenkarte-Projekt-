@@ -1,0 +1,162 @@
+h1 {
+  text-align: center;
+ color: #0b4391;
+ font-size: 3.5em;
+  margin-top: 30px;
+  font-family: "Poppins", "Segoe UI", Georgia, sans-serif;
+}
+h2 {
+  display: block
+ font-size, 1.5em;
+ }
+h1, h2 {
+  text-align: center;
+  color: #0b4391;
+  font-family: "Poppins", "Segoe UI", Georgia, sans-serif;
+  margin: 0;
+}
+#Hobbys {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+  margin-top: 20px; 
+}
+
+
+.hobby, .hobby-item {
+  text-align: center;
+  width: 300px; 
+}
+
+.hobby img, .hobby-item img {
+  display: block;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto 10px auto; 
+}
+
+section {
+  background-color: #d6eaff;
+  line-height: 1.6;
+  padding: 0;
+}
+section {
+  text-align: center;
+  color: #01060e;
+  font-size: 2em;
+  font-family: "Poppins", "Segoe UI", Georgia, sans-serif;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin: 40px auto;
+  max-width: 2000px;
+}
+
+.hobby {
+  text-align: center;
+}
+
+.hobby img {
+  width: 280px;
+  height: 160px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  margin-bottom: 5px;
+}
+
+.hobby img:hover {
+  transform: scale(1.05);
+}
+
+.hobby p {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #0c1117;
+}
+
+.beschreibung {
+  max-width: 2000px;
+  margin: 40px auto;
+  background: #c9d0d8;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-size: 1.05em;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  margin: 80px auto;
+}
+
+.contact-card {
+  background: #ffffff;
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.contact-card h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  text-align: center;
+  font-size: 0.95rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.contact-info a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.name-row {
+  display: flex;
+  gap: 12px;
+}
+
+input, textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
