@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <title> Meine WEB_Visitenkarte</title> 
+     <link rel = "stylesheet" href = "styles.css"
+ 
+     <body> 
+    <h1>  Etrat Haidari </h1>  
+    
+
+    <section id="Hobbys" >
+    <h2 class="hobbies-title">Meine Hobbys </h2>
+<section class="hobbies-section"></section> 
+<div class="hobby">
+<img src="Badminton html.jpg" alt="Federschlaeger mit Federball" width="300" height="200"> 
+  <p>Badminton</p>
+    </div>
+     <div class="hobby">
+        <img src="Zeichnen-html.jpg" alt="gezeichnete Federn und Bleistifte" width="300" height="200">
+        <p>Zeichnen</p>
+    </div>
+</section>
+
+<section id="Projekt">
+  <div class="card" id="card">
+  <!-- VORDERSEITE -->
+    <div class="card-face card-front">
+    </div>
+
+Ich bin eine begeisterte Nachwuchsprogrammiererin mit Interesse an Webentwicklung und Design.</br>
+Ich arbeite gerne kreativ und strukturiert und freue mich darauf, in Zukunft eigene Projekte umzusetzen.
+Mein Ziel ist es, moderne, benutzerfreundliche Webseiten zu gestalten und ständig Neues zu lernen.Ich 
+arbeite derzeit an meinem <b>Systemplannung und Projektentwicklung Projekt „Typ & Rush“</b>, einem selbst programmierten Tipp-Spiel, das Geschwindigkeit, 
+Reaktion und Konzentration trainiert.</p>
+<p>Das Spiel ist in <b>Python</b> entwickelt.</p>
+Ziel des Spiels ist es, möglichst schnell die angezeigten Wörter korrekt einzugeben, bevor die Zeit abläuft.
+Jeder richtige Treffer bringt Punkte – je schneller man tippt, desto mehr Punkte kann man sammeln.</p>
+Ich beschäftige mich dabei mit Themen wie:
+Zeitsteuerung und Punktesystemen in Python </br>
+Strukturierung eines Projekts mit mehreren Modulen (Menü, Spiel, Gewinnfenster)</br>
+Planung und Dokumentation nach den Systemplannung & Projektentwicklung.</br> 
+<p>
+Dieses Projekt hilft mir, meine Programmierkenntnisse <b>praktisch</b> anzuwenden, Problemlösungen zu entwickeln und 
+logisches Denken mit kreativem Design zu verbinden.
+Ich freue mich darauf,<b> <h2 class="projekt-titel" onclick="geheInVollbild()" style="cursor: pointer; text-decoration: underline;">
+    „Typ & Rush“ </h2> </P>
+ weiter auszubauen – vielleicht bald mit Soundeffekten, Highscores und einem 
+modernen Layout. <p>
+Mein <b>Spiel Detail</b> ist jetzt auch auf meiner Webkarte zu sehen:
+<a href="https://github.com/haidarietrat2002-ship-it/.git" target="_blank">
+GitHub-Link zu Typ & Rush</a>.
+</p>
+</div>
+
+<div class="video-container" style="display:none,">
+    <video id="meinVideo" width="250" controls style="cursor: pointer; border-radius: 8px;">
+        <source src="Spiel_Video.mp4" type="video/mp4">
+        Dein Browser unterstützt dieses Video nicht.
+    </video>
+    <br>  
+<script>
+function geheInVollbild() {
+    const videoElement = document.getElementById('meinVideo');
+    
+    // Video sichtbar machen (nur nötig, damit Fullscreen funktioniert)
+    videoElement.style.display = 'block';
+
+    // Video von vorne starten
+    videoElement.currentTime = 0;
+    videoElement.play();
+
+    // Vollbild aktivieren
+    if (videoElement.requestFullscreen) {
+        videoElement.requestFullscreen();
+    } else if (videoElement.webkitRequestFullscreen) { /* Safari */
+        videoElement.webkitRequestFullscreen();
+    } else if (videoElement.msRequestFullscreen) { /* IE11 */
+        videoElement.msRequestFullscreen();
+    }
+}
+
+// Klick auf das markierte Wort
+document.getElementById('trigger').addEventListener('click', geheInVollbild);
+</script>
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+<section class="contact-section">
+  <div class="contact-card">
+
+    <h2>Kontakt & Feedback</h2>
+
+    <p class="contact-info">
+      Graz · e.haidari@gmx.at 
+    </p>
+
+    <form>
+      <div class="name-row">
+        <input type="text" placeholder="Vorname" required>
+        <input type="text" placeholder="Nachname" required>
+      </div>
+
+      <input type="email" placeholder="E-Mail Adresse" required>
+
+      <textarea placeholder="Deine Nachricht"></textarea>
+
+      <button type="submit">Nachricht senden</button>
+    </form>
+
+  </div>
+</section>
+
+</div>
+</p> 
+</section>
+</head>
+<script src="JavaScripts.js" defer></script>
+</body>   
+</html>
+<!--Das ist ein Kommentar -->
+<!-- Die Bildergroße bearbeiten und in HTML heinschreiben --> 
